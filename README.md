@@ -30,9 +30,8 @@ Fica aqui meus sinceros agradecimento ao Javier pela inspiração.
 
 # Por quê?
 
-Desenvolvi esse projeto por curiosidade e diversão :)
+Trabalhando habilidades de ingestão de dados via streaming
 
-Para mais projetos como esse visite o [canal](https://www.youtube.com/@andre_ricardo)...
 
 ---
 
@@ -82,7 +81,7 @@ Estes dados são o resultado da coleta via API do site <http://ergast.com/mrd/> 
 
 # Possibilidades Futuras
 
-Com base neste projeto, é possivel fazer um estudo analistico, pois a base é relativamente pequena, no postgres e estudar sobre BI. <br>
+Com base neste projeto, é possivel fazer um estudo analitico sobre series temporais. <br>
 É possivel adaptar este projeto para visualizar o resultado em outras ferramentas graficas. <br>
 Pode-se evoluir este projeto afim de coletar os dados em tempo real das corridas de F1. <br>
 Adaptar este para acompanhar outros campeonatos. <br>
@@ -92,7 +91,7 @@ Adaptar este para acompanhar outros campeonatos. <br>
 # CHATGPT
 
 Uma curiosidade sobre o uso do ChatGPT neste projeto é que foi bastante útil para iniciar a criação do arquivo do docker compose, porém a solução apresentada para o Kafka não funcionou, sendo necessário pesquisar e rever as configurações. <br>
-o ChatGPT é um ótimo aliado no nosso desenvolvimento de software e na resoluçao de problemas, mas ainda não podemos dizer que irá substituir alguém pois apresenta algumas falhas, mas adianta bastante o caminho de pesquisa e codificação. <br>
+o ChatGPT é um ótimo aliado no nosso desenvolvimento de software e na resoluçao de problemas, mas ainda apresenta algumas falhas. adianta bastante o caminho de pesquisa e codificação. <br>
 
 ---
 
