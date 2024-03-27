@@ -1,7 +1,7 @@
 # O Projeto
 
 Este projeto consiste em criar um ambiente completo de envio e coleta de dados via streaming. Fazer um tratamento nos dados e a visualização destes em um dashboard.
-Queria que este projeto fosse de fácil replicação para que outras pessoas pudessem estudar o mesmo e evoluir conforme desejassem.
+
 
 ![FORMULA 1](FLUXO_F1.jpg)
 
