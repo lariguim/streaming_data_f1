@@ -32,10 +32,6 @@ Trabalhando ingestão de dados via streaming
 
 ---
 
-# Mão na massa
-
-![FORMULA 1](f1.gif)
-
 ## Pré-requisitos
 
 1 - Docker Compose instalado em seu computador <br>
