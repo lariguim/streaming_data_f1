@@ -9,28 +9,25 @@ Este projeto consiste em criar um ambiente completo de envio e coleta de dados v
 
 # Objetivos
 
-Quando iniciei este projeto tinha alguns objetivos em mente:
-
 - Criar um projeto completo utilizando o docker-compose
 - Visualizar um processo de streaming com Kafka funcionando
 - Utilizar o python como linguaguem para tratamento de dados
-- visualizar o resultado em um dashboard
-
-Ao longo do desenvolvimento do projeto, outros desafios foram aparecendo e quis testar o CHATGPT no apoio que este pode dar no desenvolvimento e resolução de projetos.
+- Visualizar o resultado em um dashboard
+- Testar o CHATGPT como suporte no desenvolvimento e resolução de projetos.
 
 ---
 
 # Inspiração
 
-Este projeto teve seu inicio graças ao e-mail que recebi da [kdnuggets](https://www.kdnuggets.com) com o [artigo](https://www.kdnuggets.com/building-a-formula-1-streaming-data-pipeline-with-kafka-and-risingwave) publicado pelo [Javier Granados](https://www.kdnuggets.com/author/javier-granados) na data de meu aniversário, com o projeto de coletar dados da F1 e fazer uso destes via streaming para visualizar em um dashboard no Grafana.
-Achei a idéia super bacana e quiz reproduzir, fazendo algumas adaptações e incluindo algumas tecnologias.
+Este projeto teve seu inicio com o [artigo](https://www.kdnuggets.com/building-a-formula-1-streaming-data-pipeline-with-kafka-and-risingwave) publicado pelo [Javier Granados](https://www.kdnuggets.com/author/javier-granados), e seu projeto de coletar dados da F1 e fazer uso destes via streaming para visualizar em um dashboard no Grafana.
+
 Fica aqui meus sinceros agradecimento ao Javier pela inspiração.
 
 ---
 
-# Por quê?
+# Habilidades
 
-Trabalhando habilidades de ingestão de dados via streaming
+Trabalhando ingestão de dados via streaming
 
 
 ---
@@ -41,9 +38,9 @@ Trabalhando habilidades de ingestão de dados via streaming
 
 ## Pré-requisitos
 
-1 - Tenha o Docker Compose instalado em seu computador <br>
+1 - Docker Compose instalado em seu computador <br>
 2 - Navegador WEB, para visualizar e gerencias os seus comandos <br>
-3 - Um Editor de Texto de sua preferência. Eu uso o Visual Studio! <br>
+3 - Um Editor de Texto de sua preferência.  <br>
 4 - Muita curiosidade e vontade de aprender! <br>
 
 ## Subindo o ambiente
@@ -51,7 +48,7 @@ Trabalhando habilidades de ingestão de dados via streaming
 1 - Faça o clone deste repositório em seu computador <br>
 2 - Suba o ambiente no docker: ```docker compose -f "docker-compose.yml" up -d --build``` <br>
 
-## Vendo a magia acontecer
+## Executar localmente
 
 1 - Abra o Jupyter Lab em seu navegador para ter acessos aos notebooks já criados: <http://localhost:8888> <br>
 2 - Os dados coletados contém informações de diversos anos de corridas da F1, vamos utilizar apenas o ano de 2022. Para isto, execute o notebook [F1.ipynb](jupyter\F1.ipynb). Este deve gerar os dados de 2022 em um arquivo csv que vamos utilizar como fonte para o nosso processo de streaming. O Notebook [F1_v2](jupyter\F1_v2.ipynb) faz a mesma coisa que o anterior, mas gerando 1 arquivo para cada ano de corrida disponível. <br>
@@ -79,19 +76,19 @@ Estes dados são o resultado da coleta via API do site <http://ergast.com/mrd/> 
 
 ---
 
-# Possibilidades Futuras
+# Cenários Futuros
 
 Com base neste projeto, é possivel fazer um estudo analitico sobre series temporais. <br>
-É possivel adaptar este projeto para visualizar o resultado em outras ferramentas graficas. <br>
-Pode-se evoluir este projeto afim de coletar os dados em tempo real das corridas de F1. <br>
-Adaptar este para acompanhar outros campeonatos. <br>
+Adaptar este projeto para visualizar o resultado em outras ferramentas graficas. <br>
+Evoluir este projeto afim de coletar os dados em tempo real das corridas de F1. <br>
+Adaptar para acompanhar outros campeonatos. <br>
 
 ---
 
 # CHATGPT
 
-Uma curiosidade sobre o uso do ChatGPT neste projeto é que foi bastante útil para iniciar a criação do arquivo do docker compose, porém a solução apresentada para o Kafka não funcionou, sendo necessário pesquisar e rever as configurações. <br>
-o ChatGPT é um ótimo aliado no nosso desenvolvimento de software e na resoluçao de problemas, mas ainda apresenta algumas falhas. adianta bastante o caminho de pesquisa e codificação. <br>
+O uso do ChatGPT neste projeto foi bastante útil para iniciar a criação do arquivo do docker compose, porém a solução apresentada para o Kafka não funcionou, sendo necessário pesquisar e rever as configurações. <br>
+o ChatGPT é um ótimo aliado para desenvolvimento de software e na resoluçao de problemas, porém, a versão gratuita apresenta algumas falhas e requer um pouco mais de pesquisa. Ressalva que adianta bastante o caminho de pesquisa e codificação. <br>
 
 ---
 
