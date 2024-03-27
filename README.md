@@ -1,6 +1,6 @@
 # O Projeto
 
-Este projeto consiste em criar um ambiente completo de envio e coleta de dados via streaming. Fazer um tratamento nos dados e a visualização destes em um dashboard.
+Este projeto consiste em criar um ambiente completo de envio e coleta de dados via streaming, faz tratamento nos dados e a visualização destes em um dashboard.
 
 
 ![FORMULA 1](FLUXO_F1.jpg)
